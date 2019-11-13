@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+  min-height: 100px;
+  min-width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.huber{
+  background: red;
+}
+.meier{
+  background: blue;
+}
+#lisa{
+  background: yellow;
+}
+#georg,#susi{
+  background: pink;
+}
+#luis{
+  background: green;
+}
+#susi.meier{
+  background: blue;
+}
+#brigitte{
+  background: grey;
+}
+.meier #brigitte{
+  background: orange;
+}
+.meier div#brigitte{
+  background: lightblue;
+}
